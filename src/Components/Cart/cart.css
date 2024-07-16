@@ -1,0 +1,134 @@
+.roadmap a{
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: 0.6;
+    color: black;
+}
+.roadmap{
+    display: flex;
+    gap: 10px;
+}
+.roadmap p{
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: 100%;
+}
+.cart{
+    margin: 100px 0;
+}
+.cart_about, .cart_content{
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    border-radius: 4px;
+    margin: 50px 0;
+}
+.cart_about-start  {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    height: 72px;
+}
+.cart_content-start{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    height: 100px;
+}
+.cart_about p{
+    font-family: var(--poppins-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.cart_content-img img{
+    width: 126px;
+    height: 80px;
+    object-fit: cover;
+
+}
+.cart_content-img span{
+    font-family: var(--poppins-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.cart_content-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+}
+.numeric-input {
+    display: inline-block;
+    position: relative;
+    width: 72px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #00000066
+    }
+.cart_about-start p:first-child{
+    width: calc(30% - 30px);
+}
+.cart_about-start p{
+    width: calc(25% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numeric-input input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.numeric-input .controls {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.numeric-input .controls div {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 2px;
+}
+
+.cart_content-start p{
+    font-family: var(--poppins-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.cart_delete{
+    background: transparent;
+    border: none;
+}
+.icon-delete{
+    color: var(--main-back);
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart-width{
+    width: calc(25% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
